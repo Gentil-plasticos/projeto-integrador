@@ -1,0 +1,9 @@
+# Dependências do Caixa Inteligente
+#
+# opencv-python-headless: captura de vídeo (VideoCapture) sem dependências de GUI.
+#   A exibição é feita pelo Tkinter + Pillow, portanto a variante headless é
+#   suficiente e evita conflito de janelas nativas do OpenCV (cv2.imshow).
+#   Em máquinas com webcam o backend de captura (V4L2/DirectShow) continua ativo.
+opencv-python-headless>=4.8
+Pillow>=10.0.0
+numpy>=1.24

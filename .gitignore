@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Vídeos de teste (gerados por tools/gerar_video_teste.sh)
+videos/
+
+# Sistema operacional / editores
+.DS_Store
+.idea/
+.vscode/
+*.swp
